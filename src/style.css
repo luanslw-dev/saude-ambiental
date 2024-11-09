@@ -195,8 +195,26 @@ div.video > iframe{
     height: 90%;
 }
 
-
+div.conteudo{
+    background-color: ;
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+}
+div.conteudo {
+    text-decoration: none;
+    transition-duration: 0.5s;
+    margin-top: 50px;
+ 
    
+}
+   div.conteudo:hover{
+    background-color: var(--cor3);
+    transform: scale(1.1);
+}
+
+
+   }
     
 
 .redes_sociais {
