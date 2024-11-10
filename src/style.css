@@ -117,8 +117,23 @@ article div.faleconosco h1#faleconosco{
     
 }
 
-article div.servico h1#servico{
+div.container {
+display: flex;
     
+}
+
+div.container > img{
+height: 400px;
+    width: 500px;
+}
+
+div.container img,p#lado{
+   text-align: center;
+   margin-left: 5px;
+   font-size: 1.5em;
+   color: red;
+
+ 
 }
 
 
