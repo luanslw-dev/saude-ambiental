@@ -113,9 +113,14 @@ main a {
     padding: 2px 6px;
 }
 
-article h1#faleconosco{
-    text-align: center;
+article div.faleconosco h1#faleconosco{
+    
 }
+
+article div.servico h1#servico{
+    
+}
+
 
 
 main h1 {
