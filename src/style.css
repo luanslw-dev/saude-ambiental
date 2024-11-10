@@ -234,13 +234,14 @@ div.conteudo{
     background-color: var(--cor5);
     width: 250px;
     height: auto;
-    border: 1px solid black;
+   border-radius: 20px;
     display: inline-block;
     padding: 20px;
     margin-top: 30px;
     transition-duration: 0.5s;
     color: white;
     margin-left: 30px;
+    
 }
 
 div.conteudo p{
@@ -259,6 +260,8 @@ div.conteudo h4{
     transform: scale(1.1);
     color: var(--cor0);
     box-shadow: 2px 2px 2px 5px rgba(14, 13, 13, 0.733);
+    border: none;
+   
 }
  article > h1{
     text-align: center;
