@@ -113,9 +113,7 @@ main a {
     padding: 2px 6px;
 }
 
-article div.faleconosco h1#faleconosco{
-    
-}
+
 
 div.container {
 display: flex;
@@ -145,9 +143,12 @@ div.container1 {
     div.container1 img,p#lado{
        text-align: center;
        margin-left: 5px;
-     
+    }
     
-     
+    div.contratar h1{
+        text-align: center;
+        text-transform: uppercase;
+
     }
 
 
@@ -261,6 +262,7 @@ div.conteudo h4{
  article > h1{
     text-align: center;
     padding: 10px;
+    text-transform: uppercase;
  }
 
 
