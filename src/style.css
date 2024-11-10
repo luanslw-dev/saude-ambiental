@@ -123,8 +123,8 @@ display: flex;
 }
 
 div.container > img{
-height: 400px;
-    width: 500px;
+    width: 300px;
+    margin-bottom: 20px;
 }
 
 div.container img,p#lado{
