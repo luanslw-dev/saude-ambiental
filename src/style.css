@@ -323,22 +323,6 @@ div.conteudo h4{
   
 }
 
-@media  (max-width:776px) {
-  
-        @keyframes lado-a-lado{
-            0%{ transform: translateX(0);
-        
-            }
-            50%{
-                transform: translateX(0);
-        
-            }
-            100%{
-                transform: translateX(0);
-            }
-        
-        }
-        }
 
 div.contratar {
   
@@ -346,25 +330,11 @@ div.contratar {
 
 div.contratar >h1{
     background: linear-gradient(to right,var(--cor5), var(--cor1)), var(--cor1);
-    background-size: 180% 180%;
-    animation:  lado-a-lado 7s ease infinite;
-    padding: 30px;
-    width: 200px;
+    padding: 10px;
+    width: 60vw;
     color: white;
     border-radius: 30px;
+    margin-left: 40px;
   
     
-}
-
-@keyframes lado-a-lado{
-    0%{ transform: translateX(0);
-
-    }
-    50%{
-        transform: translateX(40vw);
-
-    }
-    100%{
-        transform: translateX(0);
-    }
 }
