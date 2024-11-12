@@ -200,13 +200,27 @@ footer {
     color: white;
     text-align: center;
     font-size: 0.8em;
-    padding: 5px;
+    padding: 5em;
+    height: 100px;
 }
+
+#footer{
+    margin-top: 2em;
+    
+}
+
+#footer span{
+    font-weight: bold;
+    color: var(--cor4);
+    
+}
+
 
 footer a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+
    
 }
 footer a:hover{
