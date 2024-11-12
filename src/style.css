@@ -335,6 +335,7 @@ div.contratar >h1{
     color: white;
     border-radius: 30px;
     margin-left: 50px;
+    text-transform: capitalize;
   
     
 }
