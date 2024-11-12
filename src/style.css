@@ -153,11 +153,11 @@ div.container1 {
 
 main h1 {
     color: var(--cor5);
-    font-family: var(--fonte-android);
+   /* font-family: var(--fonte-android);*/
 }
 
 main h2 {
-    font-family: var(--fonte-android);
+   /* font-family: var(--fonte-android);*/
     font-size: 1.3em;
     background-image: linear-gradient(to right, var(--cor1), transparent);
     text-indent: 8px;
@@ -272,7 +272,7 @@ div.conteudo h4{
  article > h1{
     text-align: center;
     padding: 10px;
-    text-transform: uppercase;
+    text-transform:capitalize;
  }
 
 
@@ -321,4 +321,50 @@ div.conteudo h4{
         align-items: center;
     }
   
+}
+
+@media  (max-width:776px) {
+  
+        @keyframes lado-a-lado{
+            0%{ transform: translateX(0);
+        
+            }
+            50%{
+                transform: translateX(0);
+        
+            }
+            100%{
+                transform: translateX(0);
+            }
+        
+        }
+        }
+
+div.contratar {
+  
+}
+
+div.contratar >h1{
+    background: linear-gradient(to right,var(--cor5), var(--cor1)), var(--cor1);
+    background-size: 180% 180%;
+    animation:  lado-a-lado 7s ease infinite;
+    padding: 30px;
+    width: 200px;
+    color: white;
+    border-radius: 30px;
+  
+    
+}
+
+@keyframes lado-a-lado{
+    0%{ transform: translateX(0);
+
+    }
+    50%{
+        transform: translateX(40vw);
+
+    }
+    100%{
+        transform: translateX(0);
+    }
 }
