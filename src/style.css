@@ -255,7 +255,7 @@ div.video > iframe{
 }
 
 
-div.conteudo{
+/*div.conteudo{
     background-color: var(--cor5);
     width: 250px;
     height: auto;
@@ -275,12 +275,8 @@ div.conteudo p{
    
 }
 
-div.conteudo h4{
-    text-transform: uppercase;
-    font-size: 2em;
-    text-align: center;
    
-}
+}*/
 
    div.conteudo:hover{
     background-color: var(--cor3);
@@ -288,7 +284,46 @@ div.conteudo h4{
     color: var(--cor0);
     box-shadow: 2px 2px 2px 5px rgba(14, 13, 13, 0.733);
     border: none;
+    margin: 20px;
 }
+.conteudo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* Configurações existentes */
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .conteudo {
+    flex-basis: 24%;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    /* Configurações existentes */
+    background-color: var(--cor5);
+    border-radius: 20px;
+    transition-duration: 0.5s;
+    color: white;
+  }
+  
+div.conteudo h4{
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+}
+  
+  /* Configurações adicionais para responsividade */
+  @media (max-width: 669px) {
+    .conteudo-container {
+      flex-direction: column;
+      width: 300px;
+    }
+    article div.conteudo-container {
+        
+    }
+  }
+
 
  article > h1{
     text-align: center;
