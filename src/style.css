@@ -21,9 +21,9 @@
     --cor4: #F2F2F2;
     --cor5: #295C57;
 
-   /* --fonte-padrao: Arial, verdana, helvetica, san-seif;
+   --fonte-padrao: Arial, verdana, helvetica, san-seif;
     --fonte-destaque: "Bebas Neue", sans-serif;
-    --fonte-android: 'Android', cursive;*/
+    
 
 }
 
@@ -165,6 +165,7 @@ main h1 {
 
 main h2 {
    /* font-family: var(--fonte-android);*/
+   font-family: var(--fonte-destaque);
     font-size: 1.3em;
     background-image: linear-gradient(to right, var(--cor1), transparent);
     text-indent: 8px;
@@ -187,6 +188,7 @@ aside {
 }
 
 aside>h3 {
+    font-family: var(--fonte-destaque);
     background-color: var(--cor4);
     color: white;
     padding: 10px;
@@ -311,6 +313,7 @@ div.conteudo h4{
     text-transform: uppercase;
     font-size: 2em;
     text-align: center;
+    font-family: var(--fonte-destaque);
 }
   
   /* Configurações adicionais para responsividade */
