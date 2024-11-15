@@ -144,7 +144,10 @@ div.container1 {
     div.container1 > img{
         width: 300px;
         margin-bottom: 20px;
+    
     }
+
+ 
     
     div.container1 img,p#lado{
        text-align: center;
